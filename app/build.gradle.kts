@@ -40,6 +40,7 @@ android {
 }
 
 dependencies {
+    implementation("be.tarsos.dsp:core:2.5")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
